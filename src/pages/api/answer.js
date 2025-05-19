@@ -1,6 +1,7 @@
-import { sendBadRequest, sendMethodNotAllowed } from "../../../utils/apiMethods";
+import { sendBadRequest, sendMethodNotAllowed, sendOk } from "../../../utils/apiMethods";
 import openai from "../../../lib/openai";
-import { MAX_MEMORY } from "../../../utils/constants";
+
+const MAX_MEMORY = 5;
 
 const SYSTEM_PROMPTS = {
     SIMPLE_ASSISTANT: {
@@ -28,6 +29,7 @@ const chatCompletion = async (messages, maxTokens, temperature) => {
         model: 'gpt-3.5-turbo',
         max_tokens: maxTokens,
         temperature: temperature,
+        messages: messages,
 
     })
 

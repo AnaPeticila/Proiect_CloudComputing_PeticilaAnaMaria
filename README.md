@@ -1,3 +1,46 @@
+# 🌍 Ghid de Călătorii - Aplicație Web
+
+## 📌 Introducere
+Acest proiect constă în realizarea unei aplicații web de tip **„Ghid de călătorii”**, dezvoltată în **JavaScript** folosind **Next.js** și **MongoDB**. Utilizatorii pot:
+- Împărtăși experiențele lor din diverse excursii
+- Consulta informații utile pentru viitoare vacanțe
+- Folosi aplicația cu sau fără autentificare
+
+Scopul este de a maximiza **accesibilitatea** și **ușurința în utilizare**, oferind un spațiu sincer și comunitar de schimb de informații.
+
+---
+
+## ❗ Problema
+Lipsa unei platforme centralizate unde utilizatorii obișnuiți să documenteze și consulte informații reale despre călătorii duce la:
+- Dificultăți în planificarea vacanțelor
+- Dependenta de forumuri generale sau bloguri sponsorizate
+
+🔍 Soluția propusă: o platformă fără bias comercial, unde oricine poate contribui cu experiențe personale.
+
+---
+
+## 🧠 Descriere API
+- API-ul este creat cu **Next.js** (rute API)
+- Stochează și gestionează:
+  - Înregistrarea / autentificarea utilizatorilor
+  - Postările legate de călătorii
+- **MongoDB** este folosită pentru stocarea datelor.
+- API-ul a fost testat cu **Postman**.
+
+---
+
+## 🔁 Flux de date & Exemple de request/response
+
+### 🔸 `POST /api/posts`
+Adaugă o postare nouă:
+```json
+{
+  "title": "Vacanță în Roma",
+  "content": "Am vizitat Colosseumul și Vaticanul. Recomand!"
+}
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
@@ -38,3 +81,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+
