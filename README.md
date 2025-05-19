@@ -1,11 +1,17 @@
 # 🌍 Ghid de Călătorii - Aplicație Web
 [Link GitHub] (https://github.com/AnaPeticila/Proiect_CloudComputing_PeticilaAnaMaria)
+
 [Link Prezentarea aplicației] (https://youtu.be/M1ORloHYetg)
-[Link Prezentarea aplicației, accentul este pus pe testarea metodelor HTTP cu postman](https://youtu.be/6W7INMgOIcE)
-[Testarea metodelor HTTP](https://youtu.be/RL1QE8wB0ZA)
-[Testarea metodelor HTTP part 2](https://youtu.be/LaVLNL7_T4g)
-[Rezultatele obținute în urma testării metodelor HTTP part 2 ](https://youtu.be/9mQqypniYG0)
-[Link Vercel](https://proiect-cloud-computing-peticila-ana-maria.vercel.app/)
+
+[Link Prezentarea aplicației, accentul este pus pe testarea metodelor HTTP cu postman] (https://youtu.be/6W7INMgOIcE)
+
+[Testarea metodelor HTTP] (https://youtu.be/RL1QE8wB0ZA)
+
+[Testarea metodelor HTTP part 2] (https://youtu.be/LaVLNL7_T4g)
+
+[Rezultatele obținute în urma testării metodelor HTTP part 2 ] (https://youtu.be/9mQqypniYG0)
+
+[Link Vercel] (https://proiect-cloud-computing-peticila-ana-maria.vercel.app/)
 
 
 
